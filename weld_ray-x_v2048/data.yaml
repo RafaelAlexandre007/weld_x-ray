@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['FF', 'FP', 'IE', 'MR', 'PE', 'PO', 'Sem defeitos', 'TR']
+
+roboflow:
+  workspace: projetos-ai
+  project: weld_ray-x
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projetos-ai/weld_ray-x/dataset/7
