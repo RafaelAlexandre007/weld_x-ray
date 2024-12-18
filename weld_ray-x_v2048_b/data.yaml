@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['PO', 'Solda Ruim']
+
+roboflow:
+  workspace: projetos-ai
+  project: weld_ray-x
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projetos-ai/weld_ray-x/dataset/9
